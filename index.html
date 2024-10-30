@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="soHd" placeholder="Số hd">
+        <input type="text" id="soDienThoai1" placeholder="Số điện thoại 1">
+        <input type="text" id="speedBfSw" placeholder="Tốc Độ Trước Sw ">
+        <input type="text" id="speedAfSw" placeholder="Tốc Độ Sau Sw ">
+
+
+        <div class="button-group">
+            <button onclick="chonNoiDung(1)">Chọn nội dung 1</button>
+            <button onclick="chonNoiDung(2)">Chọn nội dung 2</button>
+            <button onclick="chonNoiDung(3)">Chọn nội dung 3</button>
+        </div>
+
+        <textarea id="chuoiKetHop" placeholder="Chuỗi sau khi kết hợp"></textarea>
+
+        <button onclick="ketHop()">Kết hợp</button>
+        <button onclick="copyChuoi()">Copy</button>
+
+        <button onclick="doiHinhNen()">Đổi hình nền</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
